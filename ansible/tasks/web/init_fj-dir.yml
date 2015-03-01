@@ -111,11 +111,11 @@
 - name: crate /fjnfs/dc-core
   file: state=directory path=/fjnfs/dc-core owner=glassfish group=glassfish mode=0755
 
-- name: crate /fjnfs/dc-core/dav
-  file: state=directory path=/fjnfs/dc-core/dav owner=glassfish group=glassfish mode=0755
+#- name: crate /fjnfs/dc-core/dav
+#  file: state=directory path=/fjnfs/dc-core/dav owner=glassfish group=glassfish mode=0755
 
-- name: crate /fjnfs/dc-core/eventlog
-  file: state=directory path=/fjnfs/dc-core/eventlog owner=glassfish group=glassfish mode=0755
+#- name: crate /fjnfs/dc-core/eventlog
+#  file: state=directory path=/fjnfs/dc-core/eventlog owner=glassfish group=glassfish mode=0755
 
-- name: crate /fjnfs/dc-core/barInstall
-  file: state=directory path=/fjnfs/dc-core/barInstall owner=glassfish group=glassfish mode=0755
+#- name: crate /fjnfs/dc-core/barInstall
+#  file: state=directory path=/fjnfs/dc-core/barInstall owner=glassfish group=glassfish mode=0755
