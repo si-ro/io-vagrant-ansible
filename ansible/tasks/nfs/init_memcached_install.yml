@@ -33,7 +33,6 @@
   command: >
     ./configure
     --prefix=/opt/memcached-{{ memcached_version }}
-    --enable-64bit
   args:
     chdir: /usr/local/src/memcached-{{ memcached_version }}
     creates: /usr/local/src/memcached-{{ memcached_version }}/Makefile
